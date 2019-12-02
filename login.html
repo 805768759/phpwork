@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>用户登录 - 日志</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="top">
+  <div class="container">
+    <div class="top-nav">
+              <a class="curr" href="index.html">首页</a>
+          </div>
+    <div class="top-right">
+              <a href="login.html">登录</a><i></i><a href="register.html">注册</a>
+          </div>
+  </div>
+</div>    
+<div class="main container">
+      <div class="box">
+        <div class="box-title"><span>账号登录</span><a href="register.html">还没有帐号？马上注册</a></div>
+        <div class="box-wp">
+          <form method="post" action="dologin.php">
+            <table class="box-account">
+              <tr>
+                <th>用户名</th>
+                <td>
+                  <input type="text" name="username" value="">
+                </td>
+              </tr>
+              <tr>
+                <th>密　码</th>
+                <td>
+                  <input type="password" name="password">
+                </td>
+              </tr>
+              <tr>
+                <td class="box-account-act" colspan="2"><input class="ui-btn" type="submit" value="登录"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer"></div>
+<!-- <script src="./js/jquery-1.12.4.min.js"></script> -->
+<!-- <script src="./js/common.js"></script> -->
+  </body>
+</html>
